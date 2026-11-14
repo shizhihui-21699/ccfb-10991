@@ -16,3 +16,11 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# Downloaded official CVSS test-vector data (~74 MB); fetch with
+# tools/scripts/fetch-official-vectors.mjs
+tools/data/official/
+
+# Build output and tooling scratch
+dist/
+.playwright/

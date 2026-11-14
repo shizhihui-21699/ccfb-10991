@@ -1,0 +1,21 @@
+{
+  "name": "vuln-priority-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vulnerability triage desk: full CVSS v4.0 scoring, EPSS+asset-importance prioritisation, SLA tracking",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "playwright-core": "^1.65.1",
+    "svelte": "^5.57.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
